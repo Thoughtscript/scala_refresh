@@ -18,7 +18,7 @@ I found the easiest way to get Scala set up on Windows 11 is to:
 
 3. Make sure to set **Project Structure** > **Project Settings** > **Project** > **SDK** to: Java `18`.
 
-    ![](./img/Screenshot 2022-11-09 172401.png)
+    ![](./img/Screenshot 2022-11-09%20172401.png)
 
 ## sbt
 
@@ -26,7 +26,7 @@ To compile build and run Scala files/apps:
 
 1. Open **Run** > **Edit Configurations** > **sbt Task**
 
-   ![](./img/Screenshot 2022-11-09 175724.png)
+   ![](./img/Screenshot 2022-11-09%20175724.png)
 
 2. Assuming a valid `build.sbt` configuration file and a main method (`@main`) exists within the `src/main/scala` classpath, a **Build** command will be automatically added to the defined task.
 3. Add `run` to **Tasks**.
